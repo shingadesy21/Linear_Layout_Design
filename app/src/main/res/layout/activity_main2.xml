@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:background="@drawable/border">
+<LinearLayout
+   style="@style/layout"
+    android:gravity="center"
+    android:orientation="vertical">
+    <RadioGroup
+        style="@style/style3"
+        >
+        <RadioButton
+            style="@style/style1"
+            android:text="@string/businessman"/>
+        <RadioButton
+            style="@style/style1"
+            android:text="@string/employee"/>
+        <RadioButton
+            style="@style/style1"
+            android:text="@string/student"/>
+    </RadioGroup>
+    <LinearLayout
+       style="@style/layout"
+        android:orientation="vertical"
+        >
+        <EditText
+            style="@style/style2"
+            android:hint="@string/mobaile_no" />
+        <EditText
+            style="@style/style2"
+            android:hint="@string/mobaile_no"
+            android:layout_marginTop="20dp"/>
+    </LinearLayout>
+    <Button
+        style="@style/style3"
+        android:layout_marginTop="40dp"
+        android:text="FINISH" />
+</LinearLayout>
+</LinearLayout>

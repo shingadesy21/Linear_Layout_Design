@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Linear Layout Design</string>
+    <string name="fname_hint">Enter first name here</string>
+    <string name="lname_hint">Enter last name here</string>
+    <string name="businessman">Businessman</string>
+    <string name="employee">Emoloyee</string>
+    <string name="student">Student</string>
+    <string name="mobaile_no">Enter 10 digit Mobaile no here</string>
+    <string name="email_id">Enter 10 E-mail id here</string>
+</resources>

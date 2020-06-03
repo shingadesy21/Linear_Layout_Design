@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#784CC6">
+    <LinearLayout
+        android:id="@+id/layout1"
+        style="@style/layout"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/fname"
+            style="@style/style2"
+            android:hint="@string/fname_hint"/>
+        <EditText
+            android:id="@+id/lname"
+            style="@style/style1"
+            android:hint="@string/lname_hint"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout2"
+        style="@style/layout"
+        android:orientation="vertical"
+        android:layout_below="@+id/layout1">
+        <EditText
+            android:id="@+id/mobaile_no"
+            style="@style/style2"
+            android:hint="@string/lname_hint"/>
+
+            <Button
+                android:id="@+id/go"
+                style="@style/style3"
+                android:text="NEXT"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"/>
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/layout3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/background">
+
+        <Button
+            android:id="@+id/google"
+            style="@style/trans"
+            android:text="Google"
+            />
+        <Button
+            android:id="@+id/facebook"
+            style="@style/trans"
+            android:text="Facebook"
+            android:layout_toRightOf="@id/google"
+            />
+        <Button
+            android:id="@+id/twitter"
+            style="@style/trans"
+            android:text="Twitter"
+            android:layout_toRightOf="@id/facebook" />
+
+    </RelativeLayout>
+</RelativeLayout>
